@@ -5,14 +5,15 @@
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
         <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap" rel="stylesheet">
     </header>
-    <body style="width: 100vw; margin: auto 0; text-align: center;" onload="">
+    <body style="width: 100vw; margin: auto 0; text-align: center; font-family: 'Roboto', sans-serif;" onload="">
         <h2 id="name-header" style="text-align:center;">
             <img src="https://github.com/emiyl/dumpling/raw/master/assets/dumpling-banner.png">
             Web Launcher
         </h2>
 
-        <button type="button" onclick="checkCompatibility()">Launch Dumpling</button>
+        <button type="button" onclick="checkCompatibility()" style="border: none; border-radius: 8px; background-color: #04AA6D; color: white; font-size: 16px; padding: 14px 28px;">Launch Dumpling</button>
 
         <div id="compatibility-warning" style="background-color: orange; margin: 0 auto; padding: 10px 0px;" hidden>
             <p id="compatibility-text"></p>
@@ -24,15 +25,16 @@
         <!--<a id="launch-button" style="font-size: 40px;" href="exploit.php">Launch Dumpling</a><br>-->
         <!--Design of the website is just to give an idea for the rough layout-->
 
-        <div id="information">
-            <b>This web exploit can in rare cases lock-up while running it. Hold the power button until it shuts down and try it again.</b><br>
-            <b>These modifications are all temporary and in memory. When you exit Dumpling no traces are left.</b>
+        <div id="information" style="margin: 30px 0;">
+            <b>The web exploits used CAN in rare cases lock-up your Wii U while attempting to launch Dumpling. If that happens, hold the power button for a few seconds and try it again.</b><br>
+            <br>
+            <b>All modifications done are fully temporary and after you exit Dumpling no traces are left.</b>
         </div>
         
-        <h3>Made possible by:</h3>
+        <h3 style="margin-bottom: 7px;">Made possible by:</h3>
         <div id="credits" style="width: 100%; height: 30%">
             <div style="width: 33%; float: left;">
-                <h4>JsTypeHax:</h4>
+                <b>JsTypeHax:</b>
                 <p> - JumpCallPop</p>
                 <p> - jam1garner</p>
                 <p> - hedgeberg</p>
@@ -40,14 +42,14 @@
                 <p> - orboditilt</p>
             </div>
             <div style="width: 33%; float: left;">
-                <h4>JsTypeHax_payload:</h4>
+                <b>JsTypeHax_payload:</b>
                 <p> - orboditilt</p>
                 <p> - Marionumber1</p>
                 <p> - dimok789</p>
                 <p> - Kinnay</p>
             </div>
             <div style="width: 33%; float: left;">
-                <h4>CustomRPXLoader:</h4>
+                <b>CustomRPXLoader:</b>
                 <p> - Maschell</p>
                 <p> - orboditilt</p>
             </div>
@@ -55,7 +57,7 @@
         <p style="clear: both;"><!--to reset table--></p>
         <div>
             <h3>Source code:</h3>
-            <h4><a href="https://github.com/Crementif/dumpling-web-launcher">https://github.com/Crementif/dumpling-web-launcher</a></h4>
+            <b><a href="https://github.com/Crementif/dumpling-web-launcher">https://github.com/Crementif/dumpling-web-launcher</a></b>
         </div>
     </body>
 </html>

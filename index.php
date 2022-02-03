@@ -15,7 +15,7 @@
 
         <button type="button" onclick="checkCompatibility()" style="border: none; border-radius: 8px; background-color: #04AA6D; color: white; font-size: 16px; padding: 14px 28px;">Launch Dumpling</button>
 
-        <div id="compatibility-warning" style="background-color: orange; margin: 0 auto; padding: 10px 0px;" hidden>
+        <div id="compatibility-warning" style="background-color: orange; margin: 16px auto; padding: 10px 0px;" hidden>
             <p id="compatibility-text"></p>
             <p>You can ignore the warning by checking the checkbox and clicking the launch button again.</p>
             <input type="checkbox" id="ignore-compatibility" name="compatibility-checkbox"> <label for="compatibility-checkbox">Ignore warning</label>

@@ -3,5 +3,5 @@
 
 code550.bin
 dumpling.rpx
-payload.elf
+#payload.elf
 payload_dbg.elf

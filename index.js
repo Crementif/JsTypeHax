@@ -4,6 +4,11 @@ function setWarning(warningText) {
 }
 
 function launchExploit() {
+    // Request URL so that fetch is cached whenever it's requested
+    const request = new XMLHttpRequest();
+    request.open("GET", "https://dumpling.dumpling-wiiu.workers.dev", false);
+    request.send(null);
+    // Go to exploit page
     var paths = window.location.pathname.split("/");
     if (paths[paths.length-1].substring(0, 6) == "index." || paths[paths.length-1] == "") {
         paths.pop();
